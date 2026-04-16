@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" xml:lang="zh-CN" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 20.3.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Sights</dc:title>
+		<dc:date>2026-04-14T20:47:26Z</dc:date>
+		<dc:language>zh-CN</dc:language>
+		<meta property="dcterms:modified">2026-04-14T20:47:26Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+		<!--accessibility options-->
+	</metadata>
+	<manifest>
+		<item id="未命名-3-1" href="%E6%9C%AA%E5%91%BD%E5%90%8D-3-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="AcuminConcept-Regular.otf" href="font/AcuminConcept-Regular.otf" media-type="application/vnd.ms-opentype" />
+		<item id="AcuminConcept_194.286wght.otf" href="font/AcuminConcept_194.286wght.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Bahnschrift-Bold.ttf" href="font/Bahnschrift-Bold.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="BellMT.TTF" href="font/BellMT.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="BernardMT-Condensed.TTF" href="font/BernardMT-Condensed.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="BradleyHandITC.TTF" href="font/BradleyHandITC.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="STXingkai.TTF" href="font/STXingkai.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x23.png" href="image/23.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="x28.png" href="image/28.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x5605fe062951b7f31608540821.png" href="image/5605fe062951b7f31608540821.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+		<item id="images_-6-.jpg" href="image/images_%286%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-10-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2810%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-11-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2811%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-14-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2814%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-16-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2816%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-18-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2818%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-20-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2820%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-8-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%288%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-9-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%289%29.jpg" media-type="image/jpeg" />
+		<item id="idGeneratedScript.js" href="script/idGeneratedScript.js" media-type="text/javascript" />
+	</manifest>
+	<spine>
+		<itemref idref="未命名-3-1" />
+	</spine>
+</package>
