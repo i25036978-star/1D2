@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" xml:lang="zh-CN" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 20.3.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Survey</dc:title>
+		<dc:date>2026-04-14T20:58:07Z</dc:date>
+		<dc:language>zh-CN</dc:language>
+		<meta property="dcterms:modified">2026-04-14T20:58:07Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+		<!--accessibility options-->
+	</metadata>
+	<manifest>
+		<item id="未命名-6-1" href="%E6%9C%AA%E5%91%BD%E5%90%8D-6-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="ArialRoundedMTBold.TTF" href="font/ArialRoundedMTBold.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="Bahnschrift-Bold.ttf" href="font/Bahnschrift-Bold.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="BaskOldFace.TTF" href="font/BaskOldFace.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="MicrosoftJhengHeiUIBold.ttc" href="font/MicrosoftJhengHeiUIBold.ttc" media-type="application/x-font-ttf" />
+		<item id="MicrosoftJhengHeiUILight.ttc" href="font/MicrosoftJhengHeiUILight.ttc" media-type="application/x-font-ttf" />
+		<item id="MonotypeCorsiva.TTF" href="font/MonotypeCorsiva.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x33.png" href="image/33.png" media-type="image/png" />
+		<item id="x40.png" href="image/40.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x42.png" href="image/42.png" media-type="image/png" />
+		<item id="x43.png" href="image/43.png" media-type="image/png" />
+		<item id="x44.png" href="image/44.png" media-type="image/png" />
+		<item id="x45.png" href="image/45.png" media-type="image/png" />
+		<item id="x46.png" href="image/46.png" media-type="image/png" />
+		<item id="x47.png" href="image/47.png" media-type="image/png" />
+		<item id="x48.png" href="image/48.png" media-type="image/png" />
+		<item id="x50.png" href="image/50.png" media-type="image/png" />
+		<item id="x51.png" href="image/51.png" media-type="image/png" />
+		<item id="x52.png" href="image/52.png" media-type="image/png" />
+		<item id="x53.png" href="image/53.png" media-type="image/png" />
+		<item id="x54.png" href="image/54.png" media-type="image/png" />
+		<item id="x55.png" href="image/55.png" media-type="image/png" />
+		<item id="x5605fe062951b7f31608540821.png" href="image/5605fe062951b7f31608540821.png" media-type="image/png" />
+		<item id="x57.png" href="image/57.png" media-type="image/png" />
+		<item id="x58.png" href="image/58.png" media-type="image/png" />
+		<item id="x59.png" href="image/59.png" media-type="image/png" />
+		<item id="x60.png" href="image/60.png" media-type="image/png" />
+		<item id="x61.png" href="image/61.png" media-type="image/png" />
+		<item id="x62.png" href="image/62.png" media-type="image/png" />
+		<item id="x63.png" href="image/63.png" media-type="image/png" />
+		<item id="x64.png" href="image/64.png" media-type="image/png" />
+		<item id="x65.png" href="image/65.png" media-type="image/png" />
+		<item id="下载_-32-.png" href="image/%E4%B8%8B%E8%BD%BD_%2832%29.png" media-type="image/png" />
+		<item id="下载_-33-.png" href="image/%E4%B8%8B%E8%BD%BD_%2833%29.png" media-type="image/png" />
+		<item id="下载_-34-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2834%29.jpg" media-type="image/jpeg" />
+		<item id="下载_-35-.png" href="image/%E4%B8%8B%E8%BD%BD_%2835%29.png" media-type="image/png" />
+		<item id="下载_-36-.png" href="image/%E4%B8%8B%E8%BD%BD_%2836%29.png" media-type="image/png" />
+		<item id="下载_-37-.png" href="image/%E4%B8%8B%E8%BD%BD_%2837%29.png" media-type="image/png" />
+		<item id="下载_-38-.png" href="image/%E4%B8%8B%E8%BD%BD_%2838%29.png" media-type="image/png" />
+		<item id="下载_-39-.jpg" href="image/%E4%B8%8B%E8%BD%BD_%2839%29.jpg" media-type="image/jpeg" />
+		<item id="idGeneratedScript.js" href="script/idGeneratedScript.js" media-type="text/javascript" />
+	</manifest>
+	<spine>
+		<itemref idref="未命名-6-1" />
+	</spine>
+</package>

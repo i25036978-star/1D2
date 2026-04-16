@@ -1,0 +1,38 @@
+<encryption xmlns="urn:oasis:names:tc:opendocument:xmlns:container" xmlns:enc="http://www.w3.org/2001/04/xmlenc#">
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/ArialRoundedMTBold.TTF" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/Bahnschrift-Bold.ttf" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/BaskOldFace.TTF" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/MicrosoftJhengHeiUIBold.ttc" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/MicrosoftJhengHeiUILight.ttc" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+	<enc:EncryptedData>
+		<enc:EncryptionMethod Algorithm="http://www.idpf.org/2008/embedding" />
+		<enc:CipherData>
+			<enc:CipherReference URI="OEBPS/font/MonotypeCorsiva.TTF" />
+		</enc:CipherData>
+	</enc:EncryptedData>
+</encryption>
