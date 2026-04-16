@@ -1,0 +1,318 @@
+@font-face {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/Bahnschrift-Bold.ttf");
+}
+
+@font-face {
+  font-family: "GeorgiaCustom";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Georgia.ttf");
+}
+
+@font-face {
+  font-family: "Microsoft JhengHei UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/MicrosoftJhengHeiUIRegular.ttc");
+}
+
+:root {
+  --page-max-width: 1280px;
+
+  /* original nav strip geometry */
+  --nav-base-width: 1272.202px;
+  --nav-base-height: 58.39px;
+
+  --red: #d0121b;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Microsoft JhengHei UI", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-shell {
+  width: min(100%, var(--page-max-width));
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1280 / 284.88;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* This wrapper stays fluid, but the nav inside is fixed-size and scaled by JS */
+.nav-scale-wrap {
+  position: absolute;
+  left: 0.304453125%;
+  top: 78.85600955%;
+  width: 99.39078125%;
+  height: var(--nav-base-height);
+  transform-origin: left top;
+  z-index: 2;
+}
+
+.hero-nav-fixed {
+  position: relative;
+  width: var(--nav-base-width);
+  height: var(--nav-base-height);
+  transform-origin: left top;
+  will-change: transform;
+}
+
+/* NAV BUTTONS */
+
+.nav-button {
+  position: absolute;
+  top: 0;
+  width: 142.8px;
+  height: 58.39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../image/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--red);
+  font-family: "Bahnschrift", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  user-select: none;
+  transition: filter 0.18s ease;
+}
+
+.nav-button:hover,
+.nav-button:focus-visible {
+  filter: brightness(1.04);
+  outline: none;
+}
+
+.nav-back { left: 0px; }
+.nav-food { left: 188.197px; }
+.nav-sights { left: 375.945px; }
+.nav-culture { left: 557.441px; }
+.nav-transport { left: 750.118px; }
+.nav-stay { left: 935.251px; }
+.nav-survey { left: 1129.402px; }
+
+.nav-back {
+  letter-spacing: -0.38px;
+}
+
+.nav-sights {
+  letter-spacing: 0.08px;
+}
+
+.nav-stay {
+  letter-spacing: -0.41px;
+}
+
+.nav-culture.is-active {
+  -webkit-text-stroke: 0.71px #ffffff;
+  paint-order: stroke fill;
+  text-shadow:
+    -0.5px -0.5px 0 #ffffff,
+     0.5px -0.5px 0 #ffffff,
+    -0.5px  0.5px 0 #ffffff,
+     0.5px  0.5px 0 #ffffff;
+}
+
+/* CONTENT AREA */
+
+.main-content {
+  width: 100%;
+}
+
+.content-layout {
+  display: grid;
+  grid-template-columns: 29.1828125% 69.15625%;
+  column-gap: 0.5046875%;
+  align-items: start;
+}
+
+.side-image {
+  transform: translateX(-5.04px);
+}
+
+.side-image img {
+  width: 100%;
+  aspect-ratio: 373.54 / 561.26;
+  object-fit: cover;
+}
+
+.text-column {
+  padding-top: 9.92px;
+}
+
+.info-block + .info-block {
+  margin-top: 30px;
+}
+
+/* SECTION TITLES */
+
+.section-title {
+  width: 100%;
+  height: 45.35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-title-history {
+  background-image: url("../image/7.png");
+}
+
+.section-title-culture {
+  background-image: url("../image/8.png");
+}
+
+.section-title h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "GeorgiaCustom", Georgia, serif;
+  font-size: clamp(18px, 2.34375vw, 30px);
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* BODY COPY */
+
+.section-copy {
+  width: 98.64%;
+  margin-top: -20px;
+  padding-top: 28px;
+  padding-left: 12px;
+  color: #000000;
+}
+
+.section-copy p {
+  margin: 0;
+  font-family: "Microsoft JhengHei UI", Arial, sans-serif;
+  font-size: clamp(14px, 1.875vw, 24px);
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.culture-tail {
+  margin-top: 14px !important;
+}
+
+.soft-break {
+  display: inline;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .section-copy {
+    margin-top: -14px;
+    padding-top: 22px;
+    padding-left: 10px;
+  }
+
+  .section-copy p {
+    line-height: 1.28;
+  }
+
+  .soft-break {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 720px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+  }
+
+  .side-image {
+    transform: none;
+  }
+
+  .side-image img {
+    width: 100%;
+    max-height: 420px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+
+  .text-column {
+    padding-top: 0;
+  }
+
+  .info-block + .info-block {
+    margin-top: 22px;
+  }
+
+  .section-title {
+    height: 42px;
+  }
+
+  .section-copy {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 0;
+  }
+
+  .section-copy p {
+    line-height: 1.35;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 18px;
+  }
+
+  .section-copy p {
+    font-size: 14px;
+  }
+}
