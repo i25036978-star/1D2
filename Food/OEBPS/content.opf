@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" xml:lang="zh-CN" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 20.3.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Sights</dc:title>
+		<dc:date>2026-04-14T20:45:45Z</dc:date>
+		<dc:language>zh-CN</dc:language>
+		<meta property="dcterms:modified">2026-04-14T20:45:45Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+		<!--accessibility options-->
+	</metadata>
+	<manifest>
+		<item id="未命名-2-1" href="%E6%9C%AA%E5%91%BD%E5%90%8D-2-1.xhtml" media-type="application/xhtml+xml" properties="scripted" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="Algerian.TTF" href="font/Algerian.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="ArialRoundedMTBold.TTF" href="font/ArialRoundedMTBold.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="Bahnschrift-Bold.ttf" href="font/Bahnschrift-Bold.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="BellMT.TTF" href="font/BellMT.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="BerlinSansFB-Reg.TTF" href="font/BerlinSansFB-Reg.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="BradleyHandITC.TTF" href="font/BradleyHandITC.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="FelixTitlingMT.TTF" href="font/FelixTitlingMT.TTF" media-type="application/vnd.ms-opentype" />
+		<item id="Gabriola.ttf" href="font/Gabriola.ttf" media-type="application/vnd.ms-opentype" />
+		<item id="PMingLiU-ExtB.ttc" href="font/PMingLiU-ExtB.ttc" media-type="application/x-font-ttf" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x30.png" href="image/30.png" media-type="image/png" />
+		<item id="x31.png" href="image/31.png" media-type="image/png" />
+		<item id="x32.png" href="image/32.png" media-type="image/png" />
+		<item id="x39.png" href="image/39.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x5605fe062951b7f31608540821.png" href="image/5605fe062951b7f31608540821.png" media-type="image/png" />
+		<item id="images_-3-.png" href="image/images_%283%29.png" media-type="image/png" />
+		<item id="images_-4-.png" href="image/images_%284%29.png" media-type="image/png" />
+		<item id="下载.png" href="image/%E4%B8%8B%E8%BD%BD.png" media-type="image/png" />
+		<item id="下载_-1-.png" href="image/%E4%B8%8B%E8%BD%BD_%281%29.png" media-type="image/png" />
+		<item id="下载_-2-.png" href="image/%E4%B8%8B%E8%BD%BD_%282%29.png" media-type="image/png" />
+		<item id="下载_-3-.png" href="image/%E4%B8%8B%E8%BD%BD_%283%29.png" media-type="image/png" />
+		<item id="下载_-4-.png" href="image/%E4%B8%8B%E8%BD%BD_%284%29.png" media-type="image/png" />
+		<item id="下载_-5-.png" href="image/%E4%B8%8B%E8%BD%BD_%285%29.png" media-type="image/png" />
+		<item id="下载_-6-.png" href="image/%E4%B8%8B%E8%BD%BD_%286%29.png" media-type="image/png" />
+		<item id="下载_-7-.png" href="image/%E4%B8%8B%E8%BD%BD_%287%29.png" media-type="image/png" />
+		<item id="idGeneratedScript.js" href="script/idGeneratedScript.js" media-type="text/javascript" />
+	</manifest>
+	<spine>
+		<itemref idref="未命名-2-1" />
+	</spine>
+</package>
