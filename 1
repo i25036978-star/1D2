@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beijing</title>
+
+<style>
+
+/* 背景 */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    background: url("beijing.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* 遮罩 */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+}
+
+/* 整体居中 */
+.content {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🔴 上方红色大标题 */
+.title {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+/* 🧊 玻璃框 */
+.menu-box {
+    padding: 25px 60px;
+
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 15px;
+}
+
+/* 菜单竖排 */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+/* ⚪ 白色按钮文字 */
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/* hover效果 */
+.menu a:hover {
+    color: #ffdada;
+}
+.menu {
+  width: 180px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 35px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0;
+  transition: all 0.3s ease;
+}
+
+.menu:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+</style>
+<script type="text/javascript">
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+</script>
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="content">
+
+    <div class="title">
+        Welcome to Beijing!<br>
+        What would you like to explore?
+    </div>
+<div class="menu">
+	<a href="../Home/OEBPS/Home.html">
+		ENTER</a>
+</div>
+   
+  </div>
+
+</div>
+
+</body>
+</html>
